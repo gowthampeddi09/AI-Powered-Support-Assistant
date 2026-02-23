@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Reset Password",
+        "content": "Users can reset their password by navigating to Settings > Security > Change Password. You will need to verify your identity via email before the reset link is sent. The link expires after 30 minutes."
+    },
+    {
+        "title": "Refund Policy",
+        "content": "Refunds are allowed within 7 days of purchase. To request a refund, go to Orders > Select Order > Request Refund. Refunds are processed within 3-5 business days and credited to the original payment method."
+    },
+    {
+        "title": "Account Deletion",
+        "content": "To delete your account, go to Settings > Account > Delete Account. This action is permanent and cannot be undone. All your data, including order history and saved preferences, will be removed within 30 days."
+    },
+    {
+        "title": "Shipping Information",
+        "content": "Standard shipping takes 5-7 business days. Express shipping takes 2-3 business days. Free shipping is available on orders over $50. You can track your order status in the Orders section of your account."
+    },
+    {
+        "title": "Contact Support",
+        "content": "You can contact our support team via email at support@example.com or through the in-app live chat available Monday to Friday, 9 AM to 6 PM EST. Average response time is under 2 hours during business hours."
+    },
+    {
+        "title": "Subscription Plans",
+        "content": "We offer three subscription plans: Basic ($9.99/month), Pro ($19.99/month), and Enterprise ($49.99/month). The Basic plan includes core features. Pro adds priority support and advanced analytics. Enterprise includes dedicated account management and custom integrations."
+    },
+    {
+        "title": "Two-Factor Authentication",
+        "content": "Enable two-factor authentication (2FA) from Settings > Security > Two-Factor Authentication. We support authenticator apps like Google Authenticator and Authy. SMS-based 2FA is also available as a backup option."
+    },
+    {
+        "title": "Data Export",
+        "content": "You can export your data by going to Settings > Privacy > Export Data. The export includes your profile information, order history, and activity logs. The export file is generated in JSON format and the download link is sent to your registered email."
+    },
+    {
+        "title": "Payment Methods",
+        "content": "We accept Visa, MasterCard, American Express, and PayPal. You can add or update your payment methods in Settings > Billing > Payment Methods. All payment information is encrypted and stored securely."
+    },
+    {
+        "title": "Order Cancellation",
+        "content": "Orders can be cancelled within 24 hours of placement if they have not been shipped yet. Go to Orders > Select Order > Cancel Order. If the order has already been shipped, you will need to initiate a return instead."
+    },
+    {
+        "title": "App Notifications",
+        "content": "Manage your notification preferences in Settings > Notifications. You can enable or disable email notifications, push notifications, and SMS alerts independently. Transactional notifications like order confirmations cannot be disabled."
+    },
+    {
+        "title": "Referral Program",
+        "content": "Invite friends using your unique referral link found in Settings > Referrals. Both you and your friend receive a $10 credit when they make their first purchase. There is no limit to the number of referrals you can make."
+    },
+    {
+        "title": "System Requirements",
+        "content": "Our web application supports the latest versions of Chrome, Firefox, Safari, and Edge. The mobile app requires iOS 14 or later and Android 10 or later. A stable internet connection is required for all features."
+    },
+    {
+        "title": "Privacy Policy",
+        "content": "We collect only the data necessary to provide our services. Your data is never sold to third parties. You can review our full privacy policy at example.com/privacy. You can manage your data sharing preferences in Settings > Privacy."
+    },
+    {
+        "title": "Updating Profile",
+        "content": "Update your profile information including name, email, and phone number in Settings > Profile. Changes to your email require verification through a confirmation link. Profile picture uploads support JPEG and PNG formats up to 5MB."
+    }
+]
