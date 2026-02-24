@@ -1,4 +1,6 @@
 require("dotenv").config();
+const fs = require("fs");
+const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const rateLimit = require("express-rate-limit");
@@ -34,6 +36,15 @@ app.use("/api/chat", chatRoutes);
 app.get("/api/health", (_req, res) => {
     res.json({ status: "ok" });
 });
+
+// Serve frontend static files in production
+const frontendPath = path.join(__dirname, "..", "frontend", "dist");
+if (fs.existsSync(frontendPath)) {
+    app.use(express.static(frontendPath));
+    app.get("*", (_req, res) => {
+        res.sendFile(path.join(frontendPath, "index.html"));
+    });
+}
 
 // Global error handler
 app.use((err, _req, res, _next) => {
